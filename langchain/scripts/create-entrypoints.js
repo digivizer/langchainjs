@@ -36,6 +36,7 @@ const entrypoints = {
   "tools/sql": "tools/sql",
   "tools/webbrowser": "tools/webbrowser",
   "tools/google_calendar": "tools/google_calendar/index",
+  "tools/experimental/graphql": "tools/experimental/graphql",
   // chains
   chains: "chains/index",
   "chains/combine_documents/reduce": "chains/combine_documents/reduce",
@@ -347,7 +348,6 @@ const requiresOptionalDependency = [
   "tools/sql",
   "tools/webbrowser",
   "tools/google_calendar",
-  "tools/experimental/graphql",
   "callbacks/handlers/llmonitor",
   "chains/load",
   "chains/sql_db",
