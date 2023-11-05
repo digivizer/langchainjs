@@ -47,4 +47,4 @@ export {
   formatToOpenAIFunction,
   formatToOpenAITool,
 } from "./convert_to_openai.js";
-export { GraphQLClientTool } from "./graphql.js";
+export { GraphQLClientTool } from "./experimental/graphql.js";
